@@ -53,4 +53,4 @@ evaluation = model.evaluate(
     verbose=2
 )
 print(evaluation)
-model.save('coco.keras')
+model.save('ag_news_subset.keras')
